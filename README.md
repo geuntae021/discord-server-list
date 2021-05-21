@@ -2,7 +2,17 @@
 Boş zamanda kendimi geliştirmek için yaptığım bir website, bu websitenin amacı discord sunucularının anlık ses sıralamasını gösteriyor.
 
 # 🔧 Kurulum
-Siteyi açmak için `cd client` sonrada `npm run dev`, botu açmak için ise `cd server` sonrada `node server`
+Kurulumu nasıl mı yapıcaksınız? tam da doğru yerdesiniz, Öncellikle botu açmak için `src/config.json` dosyasındaki gerekli bilgleri girip sırayla cmd'ye bunları yazınız 
+1. `cd server`
+2. `npm install`
+3. `node server`
+
+ ve böylece bot hazır halde oluyor siteyi açmak için ise şu adımları izleyiniz.
+1. `cd client`
+2. `npm install`
+3. `npm run dev`
+
+
 
 # 📷 Sitenin görüntüsü
 
