@@ -1,6 +1,8 @@
 # 💎 discord-server-list
 Boş zamanda kendimi geliştirmek için yaptığım bir website, bu websitenin amacı discord sunucularının anlık ses sıralamasını gösteriyor.
 
+# Kurulum
+Siteyi açmak için `cd client` sonrada `npm run dev`, botu açmak için ise `cd server` sonrada `node server`
 
 # 📷 Sitenin görüntüsü
 
