@@ -52,7 +52,7 @@ exports.run = async(client,message,args) => {
     } else {
         var likeCount = timedb ? timedb.likeCount : 1;
         var timeLike = Date.now() - timedb.date;
-        if (timeLike >= 30000) {
+        if (timeLike >= 7200000) {
             timedb.date = Date.now()
             timedb.likeCount++
             timedb.save()
