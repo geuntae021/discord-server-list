@@ -113,7 +113,7 @@ client.on("message", async(message) => {
 })
 
 
-client.login("ODM4OTI2Mzg1NzI4NzE2ODUw.YJCNFA.AjDtldYIlnglHU5MMjHsNju23QI");
+client.login(config.token);
 
 
 client.on("ready", async() => {
