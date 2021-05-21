@@ -16,12 +16,12 @@ Kurulumu nasıl mı yapıcaksınız? tam da doğru yerdesiniz, Öncellikle botu 
 
 # 📷 Sitenin görüntüsü
 
-![image](https://user-images.githubusercontent.com/68302451/119152535-11e4e000-ba59-11eb-8a7e-4e43ec127d17.png)
+![image](https://user-images.githubusercontent.com/68302451/119162556-30e86f80-ba63-11eb-8dc5-ae932552b37a.png)
 
 
 ve
 
-![image](https://user-images.githubusercontent.com/68302451/119153203-b404c800-ba59-11eb-8a08-d10ea51e5b43.png)
+![image](https://user-images.githubusercontent.com/68302451/119162650-4e1d3e00-ba63-11eb-925f-83a4248923f1.png)
 
 # 🚀 Discord Sunucumuz
 
