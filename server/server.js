@@ -6,8 +6,39 @@ var io = require('socket.io')(http);
 var client = global.client;
 var inviteDatabase = require('./src/Models/Invite');
 var database = require('./src/Models/Server');
+var likeDatabase = require('./src/Models/Like');
 
 http.listen(3000,function() { console.log("Sunucu hazır!")});
+app.get('/like/list', async(req,res) => {
+    var array = [];
+    var dbAll = await likeDatabase.find({ });
+
+client.guilds.cache.filter(async(guilds) => {
+    var db = await likeDatabase.find({ guildID: guilds.id });
+    let count = 0;
+
+    if(db) {
+        for (let i =0; i < db.length; i++) {
+            count += db[i].likeCount
+        }
+    }
+    await array.push({
+        guildName: guilds.name,
+        guildID: guilds.id,
+        guildLike: count,
+        boostCount: guilds.premiumTier,
+        memberCount: guilds.members.cache.filter(members => !members.user.bot).size,
+        iconURL: guilds.iconURL({dynamic:true}) ? guilds.iconURL({dynamic:true}) : 'https://p7.hiclipart.com/preview/842/992/26/discord-computer-servers-teamspeak-discord-icon.jpg',
+        bannerURL: guilds.bannerURL() ? guilds.bannerURL() : 'https://cdn.discordapp.com/attachments/839581354857594882/840348215290101770/9k.png'
+    })
+});
+ res.header("Access-Control-Allow-Origin", "*");
+setTimeout(() => {
+    res.json({
+        guilds: array.filter(element => element.guildLike > 0).sort((a,b) => b.guildLike - a.guildLike)
+    });
+},1000);
+});
 
 app.get('/server/:id', async(req,res) => {
   var guild;
