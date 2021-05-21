@@ -9,8 +9,7 @@ Vue.use(VueRouter);
 
 const routers = [
   { path: '/', component: Guilds},
-  { path: '/guilds/:id', component: GuildProfile},
-  { path: '/like/list', component: puanList}
+  { path: '/guilds/:id', component: GuildProfile}
 ];
 
 const router = new VueRouter({
