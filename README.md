@@ -2,7 +2,7 @@
 Boş zamanda kendimi geliştirmek için yaptığım bir website, bu websitenin amacı discord sunucularının anlık ses sıralamasını gösteriyor.
 
 # 🔧 Kurulum
-Kurulumu nasıl mı yapıcaksınız? tam da doğru yerdesiniz, Öncellikle botu açmak için `src/config.json` dosyasındaki gerekli bilgleri girip sırayla cmd'ye bunları yazınız 
+Kurulumu nasıl mı yapıcaksınız? tam da doğru yerdesiniz, Öncellikle botu açmak için `server/src/config.json` dosyasındaki gerekli bilgleri girip sırayla cmd'ye bunları yazınız 
 1. `cd server`
 2. `npm install`
 3. `node server`
