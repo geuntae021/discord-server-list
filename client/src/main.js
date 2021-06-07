@@ -16,7 +16,7 @@ const routers = [
 const router = new VueRouter({
   routes: routers,
   mode: 'history'
-})
+});
 
 Vue.use(new VueSocketIO({
   connection: 'http://localhost:3000'
