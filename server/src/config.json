@@ -1,0 +1,6 @@
+﻿{
+  "prefix": "!",
+  "sahip": [],
+  "mongo": "MONGODB URL",
+  "token": "discord-bot-token"
+}
