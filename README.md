@@ -23,6 +23,3 @@ ve
 
 ![image](https://user-images.githubusercontent.com/68302451/119162650-4e1d3e00-ba63-11eb-925f-83a4248923f1.png)
 
-# 🚀 Discord Sunucumuz
-
-<a href="https://discord.gg/F8rfWpvZZD">Serendia Squad</a>
