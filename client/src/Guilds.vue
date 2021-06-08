@@ -78,9 +78,6 @@
         var guilds = this.guilds.filter(a => a.categoryName ===  this.id);
         this.sırala = guilds;
       }
-    },
-    created() {
-      document.getElementById("buton").style.background=renk;
     }
   }
   </script>
